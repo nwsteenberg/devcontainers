@@ -1,7 +1,8 @@
 {
     "image":"mcr.microsoft.com/devcontainers/go",
     "features": {
-        "ghcr.io/devcontainers-contrib/features/neovim-homebrew:1": {}
+        "ghcr.io/devcontainers-contrib/features/neovim-homebrew:1": {},
+        "ghcr.io/kreemer/features/stow:1": {}
     },
     "mounts": ["source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"],
 
